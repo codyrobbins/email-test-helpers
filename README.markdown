@@ -5,25 +5,6 @@ This gem provides some simple helpers for [RSpec](http://relishapp.com/rspec) an
 
 Full documentation is at [RubyDoc.info](http://rubydoc.info/gems/email-test-helpers).
 
-Usage
------
-
-Since I don’t know how to properly hook into RSpec or Cucumber’s namespaces, and in the interest of allowing this to work with things like [Spork](https://rubygems.org/gems/spork), you need to manually include the module. (If anyone knows a better way to do this, let me know!)
-
-### RSpec
-
-Place the following in `spec/spec_helper.rb`:
-
-    include(CodyRobbins::EmailTestHelpers)
-
-If you’re using Spork, it would go within your `Spork.prefork` block.
-
-### Cucumber
-
-Place the following in `features/support/email.rb`:
-
-    World(CodyRobbins::EmailTestHelpers)
-
 Colophon
 --------
 
