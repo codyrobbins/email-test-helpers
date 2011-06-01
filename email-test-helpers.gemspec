@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name     = 'email-test-helpers'
-  s.version  = '1.0'
+  s.version  = '1.0.0'
   s.summary  = 'Some helpers for RSpec and Cucumber for testing ActionMailer email delivery.'
   s.homepage = 'http://codyrobbins.com/software/email-test-helpers'
   s.author   = 'Cody Robbins'
